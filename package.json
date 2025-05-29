@@ -1,0 +1,17 @@
+{
+    "name": "tts-vercel-phone-assistant",
+    "version": "1.0.0",
+    "description": "TTS server for Twilio phone assistant - deployed on Vercel",
+    "main": "api/tts.js",
+    "scripts": {
+      "dev": "vercel dev",
+      "build": "echo 'No build step needed'",
+      "deploy": "vercel --prod"
+    },
+    "dependencies": {
+      "elevenlabs": "^1.59.0"
+    },
+    "engines": {
+      "node": "20.x"
+    }
+  }
